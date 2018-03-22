@@ -36,7 +36,7 @@ var getSlideStyle = function (spec) {
   var style = {};
 
   if (spec.variableWidth === undefined || spec.variableWidth === false) {
-    style.width = spec.slideWidth;
+    style.width = typeof window !== 'undefined' ? spec.slideWidth : (100 / spec.slidesToShow) + '%';
   }
 
   if (spec.fade) {
