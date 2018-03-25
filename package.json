@@ -1,5 +1,5 @@
 {
-  "name": "react-slick",
+  "name": "react-slick-fv",
   "version": "0.14.11",
   "description": " React port of slick carousel",
   "main": "./lib",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akiran/react-slick"
+    "url": "git+https://github.com/akiran/react-slick.git"
   },
   "keywords": [
     "slick",
@@ -81,7 +81,7 @@
       "./test-setup.js"
     ]
   },
-  "npmName": "react-slick",
+  "npmName": "react-slick-fixed",
   "npmFileMap": [
     {
       "basePath": "/dist/",
@@ -93,5 +93,10 @@
   "bugs": {
     "url": "https://github.com/akiran/react-slick/issues"
   },
-  "homepage": "https://github.com/akiran/react-slick"
+  "homepage": "https://github.com/akiran/react-slick",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib"
+  }
 }
